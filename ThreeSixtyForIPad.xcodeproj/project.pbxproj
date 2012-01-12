@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		520948A214BE8BC700559574 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 520948A114BE8BC700559574 /* UIKit.framework */; };
+		520948A414BE8BC700559574 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 520948A314BE8BC700559574 /* Foundation.framework */; };
+		520948A614BE8BC700559574 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 520948A514BE8BC700559574 /* CoreGraphics.framework */; };
+		520948AC14BE8BC700559574 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 520948AA14BE8BC700559574 /* InfoPlist.strings */; };
+		520948AE14BE8BC700559574 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 520948AD14BE8BC700559574 /* main.m */; };
+		520948B214BE8BC700559574 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 520948B114BE8BC700559574 /* AppDelegate.m */; };
+		520948B514BE8BC700559574 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 520948B414BE8BC700559574 /* ViewController.m */; };
+		520948B814BE8BC700559574 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 520948B614BE8BC700559574 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5209489D14BE8BC700559574 /* ThreeSixtyForIPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeSixtyForIPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		520948A114BE8BC700559574 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		520948A314BE8BC700559574 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		520948A514BE8BC700559574 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		520948A914BE8BC700559574 /* ThreeSixtyForIPad-Info.plist */ = {isa = PBXFileReference; path = "ThreeSixtyForIPad-Info.plist"; sourceTree = "<group>"; };
+		520948AB14BE8BC700559574 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		520948AD14BE8BC700559574 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		520948AF14BE8BC700559574 /* ThreeSixtyForIPad-Prefix.pch */ = {isa = PBXFileReference; path = "ThreeSixtyForIPad-Prefix.pch"; sourceTree = "<group>"; };
+		520948B014BE8BC700559574 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		520948B114BE8BC700559574 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		520948B314BE8BC700559574 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		520948B414BE8BC700559574 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		520948B714BE8BC700559574 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5209489A14BE8BC700559574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520948A214BE8BC700559574 /* UIKit.framework in Frameworks */,
+				520948A414BE8BC700559574 /* Foundation.framework in Frameworks */,
+				520948A614BE8BC700559574 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5209489214BE8BC600559574 = {
+			isa = PBXGroup;
+			children = (
+				520948A714BE8BC700559574 /* ThreeSixtyForIPad */,
+				520948A014BE8BC700559574 /* Frameworks */,
+				5209489E14BE8BC700559574 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5209489E14BE8BC700559574 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5209489D14BE8BC700559574 /* ThreeSixtyForIPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		520948A014BE8BC700559574 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				520948A114BE8BC700559574 /* UIKit.framework */,
+				520948A314BE8BC700559574 /* Foundation.framework */,
+				520948A514BE8BC700559574 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		520948A714BE8BC700559574 /* ThreeSixtyForIPad */ = {
+			isa = PBXGroup;
+			children = (
+				520948B014BE8BC700559574 /* AppDelegate.h */,
+				520948B114BE8BC700559574 /* AppDelegate.m */,
+				520948B314BE8BC700559574 /* ViewController.h */,
+				520948B414BE8BC700559574 /* ViewController.m */,
+				520948B614BE8BC700559574 /* ViewController.xib */,
+				520948A814BE8BC700559574 /* Supporting Files */,
+			);
+			path = ThreeSixtyForIPad;
+			sourceTree = "<group>";
+		};
+		520948A814BE8BC700559574 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				520948A914BE8BC700559574 /* ThreeSixtyForIPad-Info.plist */,
+				520948AA14BE8BC700559574 /* InfoPlist.strings */,
+				520948AD14BE8BC700559574 /* main.m */,
+				520948AF14BE8BC700559574 /* ThreeSixtyForIPad-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5209489C14BE8BC700559574 /* ThreeSixtyForIPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 520948BB14BE8BC700559574 /* Build configuration list for PBXNativeTarget "ThreeSixtyForIPad" */;
+			buildPhases = (
+				5209489914BE8BC700559574 /* Sources */,
+				5209489A14BE8BC700559574 /* Frameworks */,
+				5209489B14BE8BC700559574 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThreeSixtyForIPad;
+			productName = ThreeSixtyForIPad;
+			productReference = 5209489D14BE8BC700559574 /* ThreeSixtyForIPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5209489414BE8BC700559574 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 5209489714BE8BC700559574 /* Build configuration list for PBXProject "ThreeSixtyForIPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5209489214BE8BC600559574;
+			productRefGroup = 5209489E14BE8BC700559574 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5209489C14BE8BC700559574 /* ThreeSixtyForIPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5209489B14BE8BC700559574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520948AC14BE8BC700559574 /* InfoPlist.strings in Resources */,
+				520948B814BE8BC700559574 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5209489914BE8BC700559574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520948AE14BE8BC700559574 /* main.m in Sources */,
+				520948B214BE8BC700559574 /* AppDelegate.m in Sources */,
+				520948B514BE8BC700559574 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		520948AA14BE8BC700559574 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				520948AB14BE8BC700559574 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		520948B614BE8BC700559574 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				520948B714BE8BC700559574 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		520948B914BE8BC700559574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		520948BA14BE8BC700559574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		520948BC14BE8BC700559574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThreeSixtyForIPad/ThreeSixtyForIPad-Prefix.pch";
+				INFOPLIST_FILE = "ThreeSixtyForIPad/ThreeSixtyForIPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		520948BD14BE8BC700559574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThreeSixtyForIPad/ThreeSixtyForIPad-Prefix.pch";
+				INFOPLIST_FILE = "ThreeSixtyForIPad/ThreeSixtyForIPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5209489714BE8BC700559574 /* Build configuration list for PBXProject "ThreeSixtyForIPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520948B914BE8BC700559574 /* Debug */,
+				520948BA14BE8BC700559574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		520948BB14BE8BC700559574 /* Build configuration list for PBXNativeTarget "ThreeSixtyForIPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520948BC14BE8BC700559574 /* Debug */,
+				520948BD14BE8BC700559574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5209489414BE8BC700559574 /* Project object */;
+}
